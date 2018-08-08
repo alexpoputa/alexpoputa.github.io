@@ -76,6 +76,11 @@ main {
   }
 }
 // ABOUT SECTION
+#about {
+  background: $about-image;
+  background-attachment: fixed;
+  background-size: cover;
+}
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -108,6 +113,11 @@ main {
   }
 }
 // PROJECTS SECTION
+#work {
+  background: $work-image;
+  background-attachment: fixed;
+  background-size: cover;
+}
 .projects {
   display: grid;
   grid-gap: 0.7rem;
@@ -123,6 +133,11 @@ main {
   }
 }
 // CONTACT SECTION
+#contact {
+  background: $contact-image;
+  background-attachment: fixed;
+  background-size: cover;
+}
 .boxes {
   display: flex;
   flex-wrap: wrap; // when it gets too big , it will go to the next line
