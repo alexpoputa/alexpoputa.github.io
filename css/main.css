@@ -183,7 +183,7 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #515151;
+    background: #4c4c4c;
     padding: 0.5rem;
     border-bottom: #0099cc 5px solid; }
 
