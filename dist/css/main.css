@@ -206,7 +206,8 @@ main {
 
 #contact {
   background: url(../img/background/resized/a4.jpg);
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  background-size: cover; }
 
 .boxes {
   display: flex;
