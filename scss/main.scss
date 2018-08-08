@@ -35,7 +35,7 @@ h3 {
 }
 
 a {
-  color: #fff;
+  color: #fffaf0;
   text-decoration: none;
 }
 
@@ -95,16 +95,29 @@ main {
   }
   .bio {
     grid-area: bio;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    color: #fffaf0;
   }
   .job-1 {
     grid-area: job1;
+    font-size: 1rem;
+    text-align: center;
+    opacity: 0.8;
+    color: #fffaf0;
   }
   .job-2 {
     grid-area: job2;
+    font-size: 1rem;
+    text-align: center;
+    opacity: 0.8;
+    color: #fffaf0;
   }
   .job-3 {
     grid-area: job3;
+    font-size: 1rem;
+    text-align: center;
+    opacity: 0.8;
+    color: #fffaf0;
   }
   .job {
     background: lighten($primary-color, 3);
@@ -124,7 +137,7 @@ main {
   grid-template-columns: repeat(3, 1fr);
   img {
     width: 100%;
-    border: 3px #fff solid;
+    border: 3px #fffaf0 solid;
     &:hover {
       opacity: 0.5;
       border-color: $secondary-color;
@@ -146,7 +159,7 @@ main {
   margin-top: 1rem;
   div {
     font-size: 2rem;
-    border: 3px #fff solid;
+    border: 3px #fffaf0 solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     @include easeOut;
@@ -174,7 +187,7 @@ main {
 .btn-dark {
   @extend .btn;
   background: darken($primary-color, 50);
-  color: #fff;
+  color: #fffaf0;
 }
 .btn-light {
   @extend .btn;

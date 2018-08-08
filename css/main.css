@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: #fffaf0;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -73,7 +73,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: #fffaf0;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
@@ -96,7 +96,7 @@
 
 body {
   background: #444;
-  color: #fff;
+  color: #fffaf0;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -132,7 +132,7 @@ h3 {
     background: rgba(73, 73, 73, 0); }
 
 a {
-  color: #fff;
+  color: #fffaf0;
   text-decoration: none; }
 
 header {
@@ -159,7 +159,7 @@ main {
       margin-top: 20vh; }
 
 #about {
-  background: url(../img/background/resized/a8.jpg);
+  background: url(../img/background/resized/a10.jpg);
   background-attachment: fixed;
   background-size: cover; }
 
@@ -175,13 +175,26 @@ main {
     border: #0099cc 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1.8rem;
+    color: #fffaf0; }
   .about-info .job-1 {
-    grid-area: job1; }
+    grid-area: job1;
+    font-size: 1rem;
+    text-align: center;
+    opacity: 0.8;
+    color: #fffaf0; }
   .about-info .job-2 {
-    grid-area: job2; }
+    grid-area: job2;
+    font-size: 1rem;
+    text-align: center;
+    opacity: 0.8;
+    color: #fffaf0; }
   .about-info .job-3 {
-    grid-area: job3; }
+    grid-area: job3;
+    font-size: 1rem;
+    text-align: center;
+    opacity: 0.8;
+    color: #fffaf0; }
   .about-info .job {
     background: #4c4c4c;
     padding: 0.5rem;
@@ -198,7 +211,7 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    border: 3px #fffaf0 solid; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #0099cc;
@@ -217,16 +230,16 @@ main {
   margin-top: 1rem; }
   .boxes div {
     font-size: 2rem;
-    border: 3px #fff solid;
+    border: 3px #fffaf0 solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
       background: #0099cc;
-      color: #fff; }
+      color: #fffaf0; }
       .boxes div:hover span {
-        color: #fff; }
+        color: #fffaf0; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -235,11 +248,11 @@ main {
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #0099cc;
-    color: #fff; }
+    color: #fffaf0; }
 
 .btn-dark {
   background: black;
-  color: #fff; }
+  color: #fffaf0; }
 
 .btn-light {
   background: #c4c4c4;
@@ -249,7 +262,7 @@ main {
   text-align: center;
   padding: 1rem;
   background: #2b2b2b;
-  color: #fff;
+  color: #fffaf0;
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
