@@ -102,25 +102,20 @@ main {
     grid-area: job1;
     font-size: 1rem;
     text-align: center;
-    opacity: 0.8;
-    color: #fffaf0;
   }
   .job-2 {
     grid-area: job2;
     font-size: 1rem;
     text-align: center;
-    opacity: 0.8;
-    color: #fffaf0;
   }
   .job-3 {
     grid-area: job3;
     font-size: 1rem;
     text-align: center;
-    opacity: 0.8;
-    color: #fffaf0;
   }
   .job {
-    background: lighten($primary-color, 3);
+    background-color: rgba(34, 34, 34, 0.5);
+    color: #fffaf0;
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
   }

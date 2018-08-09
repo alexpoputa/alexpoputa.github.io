@@ -180,23 +180,18 @@ main {
   .about-info .job-1 {
     grid-area: job1;
     font-size: 1rem;
-    text-align: center;
-    opacity: 0.8;
-    color: #fffaf0; }
+    text-align: center; }
   .about-info .job-2 {
     grid-area: job2;
     font-size: 1rem;
-    text-align: center;
-    opacity: 0.8;
-    color: #fffaf0; }
+    text-align: center; }
   .about-info .job-3 {
     grid-area: job3;
     font-size: 1rem;
-    text-align: center;
-    opacity: 0.8;
-    color: #fffaf0; }
+    text-align: center; }
   .about-info .job {
-    background: #4c4c4c;
+    background-color: rgba(34, 34, 34, 0.5);
+    color: #fffaf0;
     padding: 0.5rem;
     border-bottom: #0099cc 5px solid; }
 
