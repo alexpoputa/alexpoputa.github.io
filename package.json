@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive modern portfolio",
   "main": "index.js",
-  "homepage": "https://alexpoputa.github.io/modern_portfolio",
+  "homepage": "https://alexpoputa.github.io/alexpoputa.github.io",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
