@@ -179,15 +179,15 @@ main {
     color: #fffaf0; }
   .about-info .job-1 {
     grid-area: job1;
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-align: center; }
   .about-info .job-2 {
     grid-area: job2;
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-align: center; }
   .about-info .job-3 {
     grid-area: job3;
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-align: center;
     color: #fffaf0; }
   .about-info .job {
