@@ -325,5 +325,6 @@ hr {
 
     /* Cursor */
 .txt-type > .txt {
-  border-right: 0.2rem solid #777;
+  color: #fffaf0;
+  border-right: 0.2rem solid #fffaf0;
 }
